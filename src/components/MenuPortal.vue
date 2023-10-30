@@ -164,6 +164,7 @@ let placeholder;
 export default {
   name: "vue3-treeselect--menu-portal",
 
+  inject: ["instance"],
   created() {
     this.portalTarget = null;
   },
